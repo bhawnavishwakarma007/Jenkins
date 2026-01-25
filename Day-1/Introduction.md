@@ -84,7 +84,7 @@ Deployment
 Application Live
 
 Artifact Tools
-
+---
 Amazon S3
 
 JFrog
@@ -92,7 +92,7 @@ JFrog
 Nexus
 
 CI/CD Tools
-
+---
 Commonly used tools:
 
 Jenkins
@@ -104,12 +104,13 @@ GitLab CI/CD
 Azure DevOps
 
 Jenkins (Important for DevOps)
+---
 What is Jenkins?
 
 Jenkins is an open-source CI/CD automation server used to build, test, and deploy applications.
 
 Key Jenkins Details
-
+----
 Default Port: 8080
 
 Default Workspace:
@@ -117,7 +118,7 @@ Default Workspace:
 /var/lib/jenkins
 
 Minimum System Requirements
-
+---
 RAM: 2 GB
 
 CPU: 2 CPUs
@@ -131,6 +132,7 @@ Stage View
 (Used to visualize CI/CD pipelines)
 
 Pipeline Concept
+---
 Pipeline-1 (CI)
 GitHub → Build → Testing → Code Quality
 
@@ -138,7 +140,7 @@ Pipeline-2 (CD)
 Artifact → Deployment → Application
 
 Why CI/CD is Important?
-
+---
 Faster releases 🚀
 
 Early bug detection 🐞
@@ -150,5 +152,5 @@ Improves developer productivity
 Industry-standard DevOps practice
 
 One-Line Interview Answer
-
+---
 “CI/CD automates the process of integrating code, testing it, checking quality, and deploying it to production reliably and quickly.”
