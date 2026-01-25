@@ -2,7 +2,7 @@ Day 1 – CI/CD (Continuous Integration & Continuous Deployment)
 
 ---
 What is CI/CD?
-
+---
 CI/CD is a DevOps practice that automates:
 
 Code integration
@@ -14,13 +14,14 @@ Quality checks
 Deployment
 
 It helps deliver applications faster, safer, and more reliably.
----
+
 CI – Continuous Integration
 Definition
-
-Continuous Integration is the process where developers frequently push code to a shared repository, and the code is automatically built and tested.
 ---
+Continuous Integration is the process where developers frequently push code to a shared repository, and the code is automatically built and tested.
+
 CI Flow
+---
 Developer Code
      ↓
 GitHub (Source Code)
@@ -30,9 +31,9 @@ Build
 Testing
      ↓
 Code Quality Check
----
-Build Stage
 
+Build Stage
+---
 Creates the final package
 
 Adds all required dependencies & libraries
@@ -46,17 +47,17 @@ Dependencies
 Libraries
 
 Executable format
----
-Testing Stage
 
+Testing Stage
+---
 Verifies code functionality
 
 Detects bugs early
 
 Ensures new code doesn’t break existing features
----
-Code Quality Stage
 
+Code Quality Stage
+---
 Checks:
 
 Code standards
@@ -66,13 +67,14 @@ Code smells
 Vulnerabilities
 
 Tools example: SonarQube
----
+
 CD – Continuous Deployment / Delivery
 Definition
-
-CD automatically deploys the tested and approved code to servers or environments.
 ---
+CD automatically deploys the tested and approved code to servers or environments.
+
 CD Flow
+---
 CI Output (Artifact)
      ↓
 Artifact Storage
