@@ -14,12 +14,12 @@ Quality checks
 Deployment
 
 It helps deliver applications faster, safer, and more reliably.
-
+---
 CI – Continuous Integration
 Definition
 
 Continuous Integration is the process where developers frequently push code to a shared repository, and the code is automatically built and tested.
-
+---
 CI Flow
 Developer Code
      ↓
@@ -30,7 +30,7 @@ Build
 Testing
      ↓
 Code Quality Check
-
+---
 Build Stage
 
 Creates the final package
@@ -46,7 +46,7 @@ Dependencies
 Libraries
 
 Executable format
-
+---
 Testing Stage
 
 Verifies code functionality
@@ -54,7 +54,7 @@ Verifies code functionality
 Detects bugs early
 
 Ensures new code doesn’t break existing features
-
+---
 Code Quality Stage
 
 Checks:
@@ -66,12 +66,12 @@ Code smells
 Vulnerabilities
 
 Tools example: SonarQube
-
+---
 CD – Continuous Deployment / Delivery
 Definition
 
 CD automatically deploys the tested and approved code to servers or environments.
-
+---
 CD Flow
 CI Output (Artifact)
      ↓
