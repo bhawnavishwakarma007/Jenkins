@@ -1,4 +1,6 @@
 Day 1 – CI/CD (Continuous Integration & Continuous Deployment)
+
+---
 What is CI/CD?
 
 CI/CD is a DevOps practice that automates:
