@@ -50,7 +50,7 @@ Code Quality Check
 
 - Verifies code functionality
 - Detects bugs early
-- Ensures new code doesn’t break existing features
+- Ensures new code doesn't break existing features
 ---
 ### Code Quality Stage
 
@@ -97,60 +97,57 @@ Application Live
 - GitLab CI/CD
 - Azure DevOps
 ---
-Jenkins (Important for DevOps)
+
+## Jenkins (Important for DevOps)
 
 ---
-What is Jenkins?
+## What is Jenkins?
 
 Jenkins is an open-source CI/CD automation server used to build, test, and deploy applications.
 
-Key Jenkins Details
-
-----
-Default Port: 8080
-
-Default Workspace:
-
-/var/lib/jenkins
-
-Minimum System Requirements
+## Key Jenkins Details
 
 ---
-RAM: 2 GB
+- **Default Port:** 8080
 
-CPU: 2 CPUs
+- **Default Workspace:** `/var/lib/jenkins`
 
-Important Jenkins Plugins
-
-Pipeline
-
-Stage View
-
-(Used to visualize CI/CD pipelines)
-
-Pipeline Concept
+## Minimum System Requirements
 
 ---
-Pipeline-1 (CI)
+- **RAM:** 2 GB
+
+- **CPU:** 2 CPUs
+
+## Important Jenkins Plugins
+
+- **Pipeline**
+- **Stage View** (Used to visualize CI/CD pipelines)
+
+## Pipeline Concept
+
+---
+**Pipeline-1 (CI)**
 GitHub → Build → Testing → Code Quality
 
-Pipeline-2 (CD)
+**Pipeline-2 (CD)**
 Artifact → Deployment → Application
 
-Why CI/CD is Important?
+## Why CI/CD is Important?
 
 ---
-Faster releases 🚀
+- Faster releases 🚀
 
-Early bug detection 🐞
+- Early bug detection 🐞
 
-Automation reduces manual errors
+- Automation reduces manual errors
 
-Improves developer productivity
+- Improves developer productivity
 
-Industry-standard DevOps practice
+- Industry-standard DevOps practice
 
-One-Line Interview Answer
+## One-Line Interview Answer
 
 ---
-“CI/CD automates the process of integrating code, testing it, checking quality, and deploying it to production reliably and quickly.”
+
+"CI/CD automates the process of integrating code, testing it, checking quality, and deploying it to production reliably and quickly."
