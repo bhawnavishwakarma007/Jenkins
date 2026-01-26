@@ -9,11 +9,7 @@ pipeline {
      }
 
     stages {
-        stage('git clone') {
-            steps {
-               git branch: 'main', url: 'https://github.com/bhawnavishwakarma007/Terraform_Practice.git'
-            }
-        }
+
         stage('terraform init') {
             steps {
                 dir('Day-1') {
