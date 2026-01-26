@@ -1,35 +1,37 @@
 pipeline {
     agent any
-    parameters{
-    choice(
-        name:'ACTION',
-        choices:['apply','destroy'],
-        description:'Select Terraform action'
+
+    parameters {
+        choice(
+            name: 'ACTION',
+            choices: ['apply', 'destroy'],
+            description: 'Select Terraform action'
         )
-     }
+    }
 
     stages {
-
         stage('terraform init') {
             steps {
-            
-            sh 'terraform init'
-       }
-    }
+                dir('Day-2/Day-1') {
+                    sh 'terraform init'
+                }
+            }
+        }
+
         stage('terraform plan') {
             steps {
-               
-               sh 'terraform plan'
+                dir('Day-2/Day-1') {
+                    sh 'terraform plan'
+                }
+            }
         }
-    }
+
         stage('terraform apply/destroy') {
             steps {
-                
-               sh 'terraform ${ACTION} -auto-approve'
-            
-          }
+                dir('Day-2/Day-1') {
+                    sh "terraform ${params.ACTION} -auto-approve"
+                }
+            }
         }
-     }
-   }
-
-
+    }
+}
